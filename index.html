@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>portfolio</title>
+        <link rel="stylesheet" href="CSS/s.css" type="text/css" >
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw==" crossorigin="anonymous" referrerpolicy="no-referrer" />    
+    
+    </head>
+
+<body>
+
+    <div class="hero" id="home">
+        <nav>
+            <img src="IMGS/logoweb.png" align="center" width="150px" height="150px">
+            <h2 class="logo">WIL<span>io</span></h2>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#service">Services</a></li>
+            </ul>
+            <a href="type.php" class="btn">Sign up!</a>
+            <a href="Connexion.php" class="btn">Sign in</a>
+            <a href="loginadmin.php" class="btn">Connect as Admin!</a>
+        </nav>
+
+        <div class="content">
+            <br>
+            <h1>Welcome to WIL<span>io</span></h1>
+            <h3>The <span>brand</span> wins us, and also <span>YOU!</span></h3>
+        
+        <div class="newslatter">
+            <form>
+                <input type="email" name="email" id="mail" placeholder="Enter your Email">
+                <input type="submit" value="Lets Start" name="submit" onclick="myFunction()" >
+            </form>
+            <script>
+                function myFunction() {
+                  window.location.href="Connexion.php";
+                }
+              </script>
+        </div>
+        </div>
+    </div>
+    <!--About me Section-->
+    <section class="about" id="about">
+        <div class="main">
+            <img src="IMGS/MG2.jpg" alt=" ">
+            <div class="about-text">
+                <h2>About Us</h2>
+                <h5>WILio Will help you  <span>Collaborate</span> with your favourit brands and influencer</h5>
+                <p>Peu importe ton sujet d’expertise, ton univers, tes réseaux sociaux de prédilection ou la taille de ta communauté, tous les profils sont invités à s’inscrire sur WILio.
+                    Grâce à WILio, tu peux gratuitement suivre l’évolution de tous tes comptes sociaux. 
+                    T’inscrire sur WILio nous permet, et permet aux marques, de t’identifier et de te solliciter dans le cadre de campagnes d’Influence Marketing. Tu recevras des propositions de partenariat directement sur ta boite mail !</p>
+                <a href="type.php"> <button type="button" class="btn">Inscrivez-vous</button></a>
+            </div>
+        </div>
+
+    </section>
+
+    <!----Service Section-->
+
+    <div class="service" id="service">
+        <div class="title">
+            <h2>Our Services</h2>
+        </div>
+        <div class="box">
+            <div class="card">
+                <i class="fa-solid fa-1"></i>
+                <h5>Influenceur <br></h5>
+                <div class="pra">
+                    <br>
+                    <ul>
+                        <li>Trouver facilement des marques de collaboration</li>
+                        <li>Creer un reseau professionel</li>
+                        <li>Booster ta carriere</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="card">
+                <i class="fa-solid fa-2"></i>
+                
+                <h5>Marque</h5>
+                <div class="pra">
+                    <br>
+                    <ul>
+                        <li>Trouver facilement des influencers pour collaborer</li>
+                        <li>Creer un reseau des marques et influenceurs </li>
+                        <li>Booster ton produit</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="card">
+                <i class="fa-solid fa-3"></i>
+                    <h5>visiteur</h5> 
+                    <div class="pra">           
+                        <br>
+                        <ul>
+                            <li>Avoir les derniers informations sur ce domaine</li>
+                            <li>Acceder a la publicité a n'importe quel moment</li>
+                        </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="contact">
+        
+    </div>
+    <footer>
+        <p>&copy; Contactez-nous au 06 06 06 06 06</p>
+        <div class="social-media">
+          <p><i class="fab fa-facebook-f"></i></p>
+          <p><i class="fab fa-twitter"></i></p>
+          <p><i class="fab fa-instagram"></i></p>
+          <p><i class="fab fa-linkedin-in"></i></p>
+        </div>
+      </footer>
+</body>
+</html>
